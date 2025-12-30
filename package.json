@@ -1,0 +1,27 @@
+{
+    "name": "@projectyurei/phantom-signal-hook",
+    "version": "0.0.1-alpha",
+    "description": "Connect your UI to the Ghost in the machine. A react hook for Yurei's signals.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [
+        "react",
+        "hook",
+        "yurei",
+        "solana",
+        "cyberpunk"
+    ],
+    "author": "Yurei AI Protocol",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+        "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "@types/react": "^19.0.0"
+    }
+}
